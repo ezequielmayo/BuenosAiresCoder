@@ -11,8 +11,11 @@ body{
 }
 
 .headerUno{
-    height: 100vh;
-    background-image: linear-gradient(to top, #000000, #522728, #a05034, #de8c2a, #ffd700);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    height: 15vh;
+    background-color: #000000;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -56,14 +59,23 @@ body{
 }
 
 .logotipo{
-    width: 35%;
+    width: 10vh;
+    position: absolute;
+    left: 3vh;
+    top: 1.5vh;
+}
 
+.tituloLogo{
+color: white;
 }
 
 .navegacion{
     display: inline-block;
     width: 50%;
     text-align: right;
+    position: absolute;
+    top: 35%;
+    right: 3%;
 }
 
 .listaItem{
@@ -75,25 +87,36 @@ body{
 
 
 .linkNav{
-    color: black;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     font-size: 18px;
     font-weight: bold;
 }
 
 .tituloHeader{
-    margin: 0 auto;
-    margin-top: 25vh;
+    height: 85vh;
+    background-image: url(../assets/imágenes/panoramica_ba.jpg);
     text-align: center;
 }
 
+.tamañoImgMain{
+    width: 100vw;
+}
+
 .tituloHeader h1{
-    font-size: 3.5rem;
+    font-size: 7rem;
     font-weight: bolder;
+    position: relative;
+    top: 25vh;
+    -webkit-text-stroke: 0.1px rgb(0, 0, 0);
+    color: #00000000;
 }
 
 .tituloHeader h2{
-    font-size: 1.5rem;
+    font-size: 2rem;
+    position: relative;
+    top: 30vh;
+    color: white;
 }
 
 .galeria{
