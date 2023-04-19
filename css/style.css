@@ -99,8 +99,14 @@ color: white;
     color: #000000;
 }
 
-.main{
+main{
     height: 100vh;
+    display: flex;
+    gap: 20px;
+}
+
+.tarjeta {
+  flex: 1;
 }
 
 .flex{
@@ -156,6 +162,7 @@ color: white;
     text-align: left;
     font-weight: 600;
     color: #fdd306;
+    margin-top: 180px;
 }
 
 span{
@@ -167,7 +174,7 @@ span{
 .parrafo{
     max-width: 33vw;
     text-align: left;
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 100;
 }
 
@@ -192,6 +199,51 @@ span{
     background-color: #000000;
 }
 
+aside {
+    max-width: 1000px; /* Ancho máximo */
+    margin: 0 auto; /* Centrar el contenedor principal */
+  }
+  
+
+.contenedorTarjetas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10rem;
+    height: 100%;
+    margin-top: 25%;
+    margin-bottom: 20%;
+}
+ 
+.tarjeta {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    overflow: hidden;
+    border-radius: 7px;
+}
+
+.tarjeta a {
+    text-decoration: none;
+    color: #000;
+
+}
+
+.tarjeta a:hover {
+    text-decoration: underline;
+}
+
+.tarjeta img{
+    width: 100%;
+    border-radius: 7px;
+    transition: transform 0.5s;
+    transform-origin: center bottom;
+}
+  
+.tarjeta img:hover {
+    transform: scale(1.1);
+}
+  
+  
 .colorTextcontact{
     color: white;
 }
@@ -243,44 +295,89 @@ span{
     font-size: large;
 }
 
-.colorFooter{
-    background-color: #000000;
-    height: 100vh;
-}
+footer {
+    background-color: #000;
+    color: #fff;
+    height: 85vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 20px;
+  }
+  
+  .contenedorFooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 95vw;
+    height: 75vh;
+  }
+  
+  .listaIconos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 20px;
+    width: 95vw;
+    height: 50vh;
+    
+  }
+  
+  .listaIconos a {
+    color: #fff;
+    margin-bottom: 10px;
+    font-size: 15px;
+  }
 
+  .listaIconos ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
 
-.textoCentrado{
-    text-align: center;
-    margin: 100px;
-}
+  .listaIconos li {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 12px;
+  }
 
-.contenedorIcon{
-    text-align: center;
-    width: 50%;
-    margin:0 auto;
-    position: relative;
-    bottom: 70px;
-}
+  .listaIconos i {
+    margin-right: 10px;
+  }
 
-.listaIcon{
-    position: relative;
-}
-
-.fa-brands{
-    font-size: 40px;
+  .listaIconos a {
     text-decoration: none;
-    color: rgb(255, 255, 255);
-}
+    font-weight: 300;
+  }
 
-.contenedorCopyright{
-    width: 50%;
-    margin:0 auto;
+  .listaIconos h3 {
+    font-weight: 600;
+    font-size: 17px;
+  }
+
+  .contenedorTexto {
+    position: absolute;
+    height: 75vh;
+  }
+
+  .contenedorTexto p {
     position: relative;
-    bottom: 25px;
-}
-
-.copyright{
-    text-align: center;
-    color: white;
-}
+    top: 95%;
+    font-size: 12px;
+    font-weight: 100;
+    color: rgba(245, 245, 245, 0.664);
+  }
+    
+  @media (min-width: 768px) {
+    .listaIconos {
+      flex-direction: row;
+    }
+  
+    .listaIconos a {
+      margin-right: 20px;
+      margin-bottom: 0;
+    }
+  }
+  
 
