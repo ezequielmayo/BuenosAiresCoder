@@ -4,20 +4,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Turismo BA | Ciudad de Buenos Aires</title>
+    <title>BA Turismo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
     <script src="https://kit.fontawesome.com/3f44013063.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header class="headerUno">
-            <div class="contenedorLogotipo">
-                <img src="./assets/imágenes/logotipo_ba_white.png" class="logotipo" alt="logotipociudadBA">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img class="logo" src="./assets/imágenes/Logotipo_3.png" alt="logoBA"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Ver y hacer
+                      </a>
+                      <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">10 cosas que hacer en Buenos Aires</a></li>
+                        <li><a class="dropdown-item" href="#">5 comidas típicas</a></li>
+                        <li><a class="dropdown-item" href="#">Información práctica sobre Buenos Aires</a></li>
+                      </ul>
+                    </li>
+                  <li class="nav-item">
+                    <a class="nav-link galeria" href="#">Galería</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link contacto" href="#">Contacto</a>
+                  </li>
+                </ul>
+              </div>
             </div>
-            <!--<div>
-                <h2 class="tituloLogo">Buenos <span>Aires</span> <span>Ciudad</span></h2>
-            </div>-->
-            <nav class="navegacion">
+          </nav>
+    <!--<div class="contenedorLogotipo">
+            <img src="./assets/imágenes/logotipo_ba_white.png" class="logotipo" alt="logotipociudadBA">
+        </div>-->
+    <!--<div>
+            <h2 class="tituloLogo">Buenos <span>Aires</span> <span>Ciudad</span></h2>
+        </div>-->
+        <!--<nav class="navegacion">
                 <ul>
                     <li class="listaItem"><a class="linkNav" href="#">HOME</a></li>
                     <li class="listaItem"><a class="linkNav" href="./pages/visita_la_ciudad.html">Visita La Ciudad</a></li>
@@ -25,26 +53,24 @@
                     <li class="listaItem"><a class="linkNav" href="./pages/galeria.html">Galería</a></li>
                     <li class="listaItem"><a class="linkNav" href="./pages/contacto.html">Contacto</a></li>
                 </ul>
-            </nav>
+            </nav>-->
     </header>
-    <main class="colorMain">
-            <div class="tituloHeader">
-                <h1>Turismo BA</h1>
-                <h2>¡Haz que tu visita sea una experiencia inolvidable!</h2>
+    <main class=main>
+        <div class="contenedorPadre">
+            <div class="contenedorHijo hijoIzquierdo">
+                <p style="color: #fdd306;">.</p>
             </div>
-            <span class="">
-                .
-            </span>
-            <div>
-                <img class="tamañoImgMain" src="./assets/imágenes/panoramica_ba.jpg" alt="">
-            </div>   
-            <section class="sectionCards">
+                <div><img class="imagen" src="./assets/imágenes/IMG_1343.JPG" alt=""></div>
+            <div class="contenedorHijo hijoDerecho">
+                <h1 class="tituloH1">Descubre<span>Buenos Aires</span></h1>
+                <p class="parrafo">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere incidunt debitis numquam porro earum cum officiis a provident totam est. Dolore, ratione eum totam in vel commodi quia accusamus corrupti!</p>
+            </div>
+        </div>
+            <!--<section class="sectionCards">
             <div class="contenedorParrafoUno">
                 <h2>Título</h2>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis consectetur vitae modi suscipit sit, eaque fugiat deserunt! Non nemo error sequi illo? Nostrum hic officiis nobis! Magnam cum modi et.
-                    Tempora, ullam itaque eos expedita ex blanditiis porro a numquam magnam aliquid est? Tenetur, consequuntur neque sit maiores officia nostrum quam non blanditiis laboriosam asperiores architecto excepturi quae unde laudantium!
-                    Odio quas reiciendis quod molestiae beatae aspernatur quibusdam qui, dolore quam libero obcaecati quo eius voluptate. Libero, esse perferendis ab ipsum facere voluptas impedit vitae vero ex fuga aspernatur molestiae!
-                    Corporis ratione eos, molestias beatae iure porro quibusdam nemo temporibus rem quasi enim, voluptatem asperiores non labore id? Exercitationem magnam et consequuntur odit incidunt quae nisi beatae numquam nostrum amet.</p>
+                </p>
             </div>
             <div class="contenedorImagenUno">
                 <a href=""><img class="sizeImagen" src="./assets/imágenes/portada_1.jpg" alt="avenida"></a>
@@ -55,34 +81,28 @@
             <div class="contenedorParrafoDos">
                 <h2>Título</h2>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo officiis nemo quod aliquid temporibus quidem sapiente cupiditate culpa necessitatibus eos, molestias maiores corporis corrupti aperiam pariatur voluptatem quaerat consequuntur tenetur.
-                    Enim, molestiae. Aspernatur quaerat quos voluptas eos tenetur corporis tempore dignissimos architecto sunt impedit qui natus iste, ducimus, consequuntur, autem et numquam minima voluptatibus dicta veritatis nobis error tempora! Ducimus.
-                    Soluta expedita, asperiores culpa id sunt ullam quidem temporibus vitae laborum error natus, porro sint nostrum officiis, omnis explicabo nisi cupiditate dolorum libero perspiciatis ipsum. Dolorum magnam possimus laudantium veniam.
-                    Beatae aspernatur laborum tempora exercitationem consequatur libero, iste fugiat temporibus, atque laboriosam consequuntur, iusto minus aliquam dolore voluptas itaque officiis accusantium? Blanditiis magnam necessitatibus dolorum cupiditate tempora saepe voluptas incidunt.</p>
+                </p>
             </div>
             <div class="contenedorParrafoTres">
                 <h2>Título</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi maiores reiciendis, nam doloribus fugit necessitatibus odio illo sint atque tempora omnis. Explicabo facere, totam dicta laboriosam beatae nobis. Iure, consectetur?
-                    Provident illo modi cumque, in obcaecati placeat ipsam hic et ipsa recusandae, dolor, quos doloribus minima pariatur facilis repudiandae! Facilis iusto eveniet commodi laudantium quos voluptatum enim in fugit iure?
-                    Saepe voluptatibus minima ipsam esse laudantium culpa laboriosam error quasi? Temporibus obcaecati repudiandae, accusamus ducimus excepturi reiciendis iusto nam ab voluptatem, illo voluptate, laborum quidem velit perferendis animi! Omnis, culpa!
-                    Architecto, aliquid? Totam, quaerat quis! Quod totam molestiae animi culpa, quibusdam cupiditate eos esse laudantium magnam, dolor dicta, minima provident consequatur deleniti aliquid quae iusto eum! Eligendi accusamus aliquam harum.</p>
+                </p>
                 </div>
                 <div class="contenedorVideo">
                     <video class="video" src="./assets/videos/timelapse_1.mp4" controls loop></video>
                 </div>
-        </section>
+        </section>-->
     </main>
     <footer class="colorFooter">
-        <div class="svg">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill= "#ffd700" fill-opacity="0.9" d="M0,160L40,149.3C80,139,160,117,240,133.3C320,149,400,203,480,224C560,245,640,235,720,208C800,181,880,139,960,128C1040,117,1120,139,1200,154.7C1280,171,1360,181,1400,186.7L1440,192L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
-        </div>
-        <div class="contenedorIcon">
-            <a class="listaIcon" href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-            <a class="listaIcon" href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-            <a class="listaIcon" href="https://www.whatsapp.com/" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
-        </div>
+        
         <div class="contenedorCopyright">
             <p class="copyright">Copyright © Turismo BA | Ezequiel Mayo 2023. Todos los derechos reservados.</p>
         </div>    
+        <!--<div class="contenedorIcon">
+            <a class="listaIcon" href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a class="listaIcon" href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a class="listaIcon" href="https://www.whatsapp.com/" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>-->
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>

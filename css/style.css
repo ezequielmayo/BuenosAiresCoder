@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
 
 *{
     margin: 0%;
@@ -7,7 +8,8 @@
 }
 
 body{
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
 }
 
 .headerUno{
@@ -15,10 +17,6 @@ body{
     top: 0;
     z-index: 10;
     height: 15vh;
-    background-color: #000000;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
 }
 
 .headerDos{
@@ -93,30 +91,96 @@ color: white;
     font-weight: bold;
 }
 
-.tituloHeader{
-    height: 85vh;
-    background-image: url(../assets/imágenes/panoramica_ba.jpg);
-    text-align: center;
-}
-
-.tamañoImgMain{
-    width: 100vw;
-}
-
 .tituloHeader h1{
     font-size: 7rem;
-    font-weight: bolder;
+    font-weight: bold;
     position: relative;
     top: 25vh;
-    -webkit-text-stroke: 0.1px rgb(0, 0, 0);
-    color: #00000000;
+    color: #000000;
 }
 
-.tituloHeader h2{
-    font-size: 2rem;
+.main{
+    height: 100vh;
+}
+
+.flex{
+    display: inline-block;
+}
+
+.logo{
+    width: 55%;
+}
+.contacto{
     position: relative;
-    top: 30vh;
-    color: white;
+    left: 47vw;
+}
+
+.galeria{
+    position: relative;
+    left: 46vw;
+}
+
+.contenedorPadre{
+    display: flex;
+    width: 100%;
+}
+
+
+.contenedorHijo{
+    flex-basis: 50%;
+    height: 50vh;
+    background-color: rgb(255, 255, 255);
+    margin-top: 2%;
+}
+
+
+.hijoIzquierdo{
+    position: relative;
+    background-color: #fdd306;
+    margin-left: 0.6%;
+    max-width: 49.4%;
+    border-radius: 5px;
+    
+}
+
+.hijoDerecho{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.tituloH1{
+    font-size: 70px;
+    text-align: left;
+    font-weight: 600;
+    color: #fdd306;
+}
+
+span{
+    display: block;
+    font-size: 70px;
+    color: #000000;
+}
+
+.parrafo{
+    max-width: 33vw;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.imagen{
+    position: absolute;
+    top: 20%;
+    left: 2.75%;
+    bottom: 50%;    
+    z-index: 1;
+    width: 45%;
+    border-radius: 5px;
+    margin-top: 2%;
+    
 }
 
 .galeria{
@@ -125,10 +189,6 @@ color: white;
 }
 
 .contactoMain{
-    background-color: #000000;
-}
-
-.colorMain{
     background-color: #000000;
 }
 
@@ -144,7 +204,7 @@ color: white;
 .contenedorParrafoUno{
     width: 50%;
     display: inline-block;
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: large;
 
 }
@@ -161,7 +221,7 @@ color: white;
 .contenedorParrafoDos{
     width: 49%;
     display: inline-block;
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: large;
 }
 
@@ -179,12 +239,13 @@ color: white;
 .contenedorParrafoTres{
     width: 50%;
     display: inline-block;
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: large;
 }
 
 .colorFooter{
     background-color: #000000;
+    height: 100vh;
 }
 
 
@@ -202,15 +263,13 @@ color: white;
 }
 
 .listaIcon{
-    list-style: none;
-    display: inline-block;
-    padding-left: 10px;
+    position: relative;
 }
 
 .fa-brands{
     font-size: 40px;
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 .contenedorCopyright{
