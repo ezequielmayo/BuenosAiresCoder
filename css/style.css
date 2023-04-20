@@ -12,127 +12,39 @@ body{
     font-weight: 600;
 }
 
-.headerUno{
+header {
     position: sticky;
     top: 0;
     z-index: 10;
     height: 15vh;
 }
 
-.headerDos{
-    height: 100vh;
-    background-image: linear-gradient(to bottom, #284108, #3b590c, #50730f, #678d11, #80a811, #929d00, #a09200, #ab8604, #94581e, #6b3524, #391c1d, #000000);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.headerTres{
-    height: 100vh;
-    background-image: linear-gradient(to bottom, #622bde, #df00aa, #ff006d, #ff6437, #ffa800, #f9a710, #f2a61a, #eca522, #c26d32, #874133, #452224, #000000);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.headerCuatro{
-    height: 100vh;
-    background-image: linear-gradient(to bottom, #180934, #003364, #005c86, #008695, #00ae93, #4ca96e, #75a14b, #989530, #8a6429, #673c28, #381f1e, #000000);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.headerCinco{
-    height: 100vh;
-    background-image: linear-gradient(to bottom, #180934, #4f1a45, #82324e, #ac5452, #cb7f55, #c48154, #bc8354, #b58455, #8d5d47, #603d37, #322122, #000000);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.contenedorLogotipo{
-    width: 49%;
-    display: inline-block;
-}
-
-.logotipo{
-    width: 10vh;
-    position: absolute;
-    left: 3vh;
-    top: 1.5vh;
-}
-
-.tituloLogo{
-color: white;
-}
-
-.navegacion{
-    display: inline-block;
-    width: 50%;
-    text-align: right;
-    position: absolute;
-    top: 35%;
-    right: 3%;
-}
-
-.listaItem{
-   list-style: none;
-   display: inline-block;
-   padding-left: 15px;
-   padding-top: 0%;
-}
-
-
-.linkNav{
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: bold;
-}
-
-.tituloHeader h1{
-    font-size: 7rem;
-    font-weight: bold;
-    position: relative;
-    top: 25vh;
-    color: #000000;
-}
-
-main{
+main {
     height: 100vh;
     display: flex;
     gap: 20px;
 }
 
-.tarjeta {
-  flex: 1;
-}
-
-.flex{
-    display: inline-block;
-}
-
-.logo{
+.logo {
     width: 55%;
 }
-.contacto{
+
+.boton-contacto {
     position: relative;
     left: 47vw;
 }
 
-.galeria{
+.boton-galeria {
     position: relative;
     left: 46vw;
 }
 
-.contenedorPadre{
+.contenedorPadre {
     display: flex;
     width: 100%;
 }
 
-
-.contenedorHijo{
+.contenedorHijo {
     flex-basis: 50%;
     height: 50vh;
     background-color: rgb(255, 255, 255);
@@ -140,16 +52,15 @@ main{
 }
 
 
-.hijoIzquierdo{
+.hijoIzquierdo {
     position: relative;
     background-color: #fdd306;
     margin-left: 0.6%;
     max-width: 49.4%;
     border-radius: 5px;
-    
 }
 
-.hijoDerecho{
+.hijoDerecho {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -157,7 +68,7 @@ main{
     padding: 20px;
 }
 
-.tituloH1{
+.tituloH1 {
     font-size: 70px;
     text-align: left;
     font-weight: 600;
@@ -165,20 +76,69 @@ main{
     margin-top: 180px;
 }
 
-span{
+.contenedorContacto {
+    position: relative;
+    width: 99.4%;
+    height: 50vh;
+    top: 4%;
+    left: 0.6%;
+    background-color: #fdd306;
+    border-radius: 5px;
+}
+  
+.contenedorContacto img {
+    position: absolute;
+    margin-left: 2%;
+    margin-top: 2.5%; 
+    width: 96%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.contenedorTitulo {
+     position: absolute;
+     width: 80%;
+     margin-left: 7%;
+}
+
+.tituloContacto {
+    position: relative;
+    text-align: left;
+    width: 80%;
+    margin-top: 400px;
+    margin-left: 0;
+    font-size: 5rem;
+    font-weight: 600;
+    
+}
+
+.subtitulo {
+    margin-left: 1%;
+    font-size: 1.5rem;
+    font-weight: 300;
+    width: 80%;
+    text-align: left;
+}
+
+span {
     display: block;
     font-size: 70px;
     color: #000000;
 }
 
-.parrafo{
+.spanContacto {
+    text-align: center;
+    color: #fdd306;
+}
+
+.parrafo {
     max-width: 33vw;
     text-align: left;
     font-size: 17px;
     font-weight: 100;
 }
 
-.imagen{
+.imagen {
     position: absolute;
     top: 20%;
     left: 2.75%;
@@ -187,16 +147,21 @@ span{
     width: 45%;
     border-radius: 5px;
     margin-top: 2%;
-    
 }
 
-.galeria{
+.imagenContacto {
+    position: absolute;
+    top: 20%;
+    right: 2.1%;
+    bottom: 50%;    
+    z-index: 1;
+    width: 45%;
+    border-radius: 5px;
+    margin-top: 2%;
+}
+
+.galeria {
     width: 50%;
-    
-}
-
-.contactoMain{
-    background-color: #000000;
 }
 
 aside {
@@ -232,7 +197,7 @@ aside {
     text-decoration: underline;
 }
 
-.tarjeta img{
+.tarjeta img {
     width: 100%;
     border-radius: 7px;
     transition: transform 0.5s;
@@ -243,58 +208,6 @@ aside {
     transform: scale(1.1);
 }
   
-  
-.colorTextcontact{
-    color: white;
-}
-
-.contenedorImagenUno{
-    width: 49%;
-    display: inline-block;
-}
-
-.contenedorParrafoUno{
-    width: 50%;
-    display: inline-block;
-    color: rgb(0, 0, 0);
-    font-size: large;
-
-}
-
-.contenedorImagenDos{
-    width: 50%;
-    display: inline-block;
-}
-
-.sizeImagen{
-    width: 100%;
-}
-
-.contenedorParrafoDos{
-    width: 49%;
-    display: inline-block;
-    color: rgb(0, 0, 0);
-    font-size: large;
-}
-
-.contenedorVideo{
-    width: 49%;
-    display: inline-block;
-    text-align: center;
-   
-}
-
-.video{
-    width: 50%;
-}
-
-.contenedorParrafoTres{
-    width: 50%;
-    display: inline-block;
-    color: rgb(0, 0, 0);
-    font-size: large;
-}
-
 footer {
     background-color: #000;
     color: #fff;
@@ -303,17 +216,17 @@ footer {
     justify-content: flex-end;
     align-items: flex-end;
     padding: 20px;
-  }
+}
   
-  .contenedorFooter {
+.contenedorFooter {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 95vw;
     height: 75vh;
-  }
+}
   
-  .listaIconos {
+.listaIconos {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -321,55 +234,55 @@ footer {
     width: 95vw;
     height: 50vh;
     
-  }
+}
   
-  .listaIconos a {
+.listaIconos a {
     color: #fff;
     margin-bottom: 10px;
     font-size: 15px;
-  }
+}
 
-  .listaIconos ul {
+.listaIconos ul {
     list-style: none;
     margin: 0;
     padding: 0;
-  }
+}
 
-  .listaIconos li {
+.listaIconos li {
     display: flex;
     align-items: center;
     justify-content: flex-start;
     margin-bottom: 12px;
-  }
+}
 
-  .listaIconos i {
+.listaIconos i {
     margin-right: 10px;
-  }
+}
 
-  .listaIconos a {
+.listaIconos a {
     text-decoration: none;
     font-weight: 300;
-  }
+}
 
-  .listaIconos h3 {
+.listaIconos h3 {
     font-weight: 600;
     font-size: 17px;
-  }
+}
 
-  .contenedorTexto {
+.contenedorCopyright {
     position: absolute;
     height: 75vh;
-  }
+}
 
-  .contenedorTexto p {
+.contenedorCopyright p {
     position: relative;
     top: 95%;
     font-size: 12px;
     font-weight: 100;
     color: rgba(245, 245, 245, 0.664);
-  }
+}
     
-  @media (min-width: 768px) {
+@media (min-width: 768px) {
     .listaIconos {
       flex-direction: row;
     }
@@ -378,6 +291,6 @@ footer {
       margin-right: 20px;
       margin-bottom: 0;
     }
-  }
+}
   
 
