@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto | Turismo BA</title>
+    <title>Contacto</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
     <script src="https://kit.fontawesome.com/3f44013063.js" crossorigin="anonymous"></script>
@@ -24,16 +24,15 @@
                         Ver y hacer
                       </a>
                       <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <li><a class="dropdown-item" href="#">10 cosas que hacer en Buenos Aires</a></li>
-                        <li><a class="dropdown-item" href="#">5 comidas típicas</a></li>
-                        <li><a class="dropdown-item" href="#">Información práctica sobre Buenos Aires</a></li>
+                        <li><a class="dropdown-item" href="./20_cosas.html">20 cosas que hacer en Buenos Aires</a></li>
+                        <li><a class="dropdown-item" href="./informacion.html">Información práctica sobre Buenos Aires</a></li>
                       </ul>
                     </li>
                   <li class="nav-item">
-                    <a class="nav-link boton-galeria" href="#">Galería</a>
+                    <a class="nav-link boton-galeria" href="./galeria.html">Galería</a>
                   </li>
                   <li class="nav-item">
-                      <a class="nav-link boton-contacto" href="#">Contacto</a>
+                      <a class="nav-link boton-contacto" href="./contacto.html">Contacto</a>
                   </li>
                 </ul>
               </div>
@@ -49,7 +48,7 @@
             <p class="subtitulo">¡Tu consulta o sugerencia nos interesa!</p>
         </div> 
     </main>
-    <aside>
+    <aside class="formContacto">
         <form class="row g-3">
             <div class="col-md-6">
               <label for="inputEmail4" class="form-label">Nombre</label>
@@ -57,7 +56,7 @@
             </div>
             <div class="col-md-6">
               <label for="inputPassword4" class="form-label">Email</label>
-              <input type="password" class="form-control" id="inputPassword4">
+              <input class="form-control" id="inputPassword4">
             </div>
         </div>
         <div class="col-md-6">
@@ -65,37 +64,34 @@
             <input type="text" class="form-control" id="inputCity">
         </div>
         <div class="col-md-4">
-            <label for="inputState" class="form-label">Provincia</label>
+            <label for="inputState" class="form-label">País</label>
             <select id="inputState" class="form-select">
-                <option selected>Selecciona...</option>
-                <option>Buenos Aires</option>
-                <option>CABA</option>
-                <option>Catamarca</option>
-                <option>Chaco</option>
-                <option>Chubut</option>
-                <option>Córdoba</option>
-                <option>Corrientes</option>
-                <option>Entre Ríos</option>
-                <option>Formosa</option>
-                <option>Jujuy</option>
-                <option>La Pampa</option>
-                <option>La Rioja</option>
-                <option>Mendoza</option>
-                <option>Misiones</option>
-                <option>Neuquén</option>
-                <option>Río Negro</option>
-                <option>Salta</option>
-                <option>San Juan</option>
-                <option>San Luis</option>
-                <option>Santa Cruz</option>
-                <option>Santa Fe</option>
-                <option>Santiago del Estero</option>
-                <option>Tierra del Fuego</option>
-                <option>Tucumán</option>
+                <option selected>Seleccione...</option>
+                <option value="AR">Argentina</option>
+                <option value="BO">Bolivia</option>
+                <option value="CL">Chile</option>
+                <option value="CO">Colombia</option>
+                <option value="CR">Costa Rica</option>
+                <option value="CU">Cuba</option>
+                <option value="DO">República Dominicana</option>
+                <option value="EC">Ecuador</option>
+                <option value="SV">El Salvador</option>
+                <option value="ES">España</option>
+                <option value="GT">Guatemala</option>
+                <option value="HN">Honduras</option>
+                <option value="MX">México</option>
+                <option value="NI">Nicaragua</option>
+                <option value="PA">Panamá</option>
+                <option value="PY">Paraguay</option>
+                <option value="PE">Perú</option>
+                <option value="PR">Puerto Rico</option>
+                <option value="ES">España</option>
+                <option value="UY">Uruguay</option>
+                <option value="VE">Venezuela</option> 
             </select>
         </div>
         <div class="col-md-2">
-            <label for="inputZip" class="form-label">n° celular</label>
+            <label for="inputZip" class="form-label">n° telefónico</label>
             <input type="text" class="form-control" id="inputZip">
         </div>
         <div class="form-floating">
@@ -106,7 +102,7 @@
               <div class="form-check">
                 <input class="form-check-input" type="checkbox" id="gridCheck">
                 <label class="form-check-label" for="gridCheck">
-                  ¡Suscribirme a las novedades "Descubre Buenos Aires" y más!
+                  ¡Suscribirme para recibir novedades "Descubre Buenos Aires" y más!
                 </label>
               </div>
             </div>
@@ -115,12 +111,11 @@
             </div>
         </form>
     </aside>
-    <br>
     <footer>
         <div class="contenedorFooter">
             <div class="listaIconos">
                 <ul>
-                    <li><h3>Síganos</h3></li>
+                    <li><h3>Síguenos</h3></li>
                     <li><a class="listaIcon" href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i>Facebook</a></li>
                     <li><a class="listaIcon" href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i>Instagram</a></li>
                     <li><a class="listaIcon" href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i>Youtube</a></li>

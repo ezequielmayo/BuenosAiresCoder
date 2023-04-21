@@ -53,13 +53,23 @@ main {
 
 
 .hijoIzquierdo {
-    position: relative;
+    display: flex;
     background-color: #fdd306;
     margin-left: 0.6%;
     max-width: 49.4%;
     border-radius: 5px;
 }
 
+.imagen {
+    position: absolute;
+    top: 20%;
+    left: 2.75%;
+    bottom: 50%;    
+    z-index: 1;
+    width: 45%;
+    border-radius: 5px;
+    margin-top: 2%;
+}
 .hijoDerecho {
     display: flex;
     justify-content: center;
@@ -138,16 +148,6 @@ span {
     font-weight: 100;
 }
 
-.imagen {
-    position: absolute;
-    top: 20%;
-    left: 2.75%;
-    bottom: 50%;    
-    z-index: 1;
-    width: 45%;
-    border-radius: 5px;
-    margin-top: 2%;
-}
 
 .imagenContacto {
     position: absolute;
@@ -160,13 +160,17 @@ span {
     margin-top: 2%;
 }
 
+.formContacto {
+    width: 90%;
+}
+
 .galeria {
     width: 50%;
 }
 
 aside {
-    max-width: 1000px; /* Ancho máximo */
-    margin: 0 auto; /* Centrar el contenedor principal */
+    width: 100%; 
+    margin: 0 auto;
   }
   
 
@@ -175,8 +179,10 @@ aside {
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10rem;
     height: 100%;
-    margin-top: 25%;
-    margin-bottom: 20%;
+    margin-top: 15%;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
  
 .tarjeta {
@@ -207,6 +213,45 @@ aside {
 .tarjeta img:hover {
     transform: scale(1.1);
 }
+
+.col-12 {
+    margin-bottom: 20px;
+}
+
+.imgGallery {
+    width: 100%;
+    object-fit: cover;
+    object-fit: cover;
+    transition: transform 0.5s ease-in-out;
+}
+
+.imgGallery:hover {
+    transform: scale(1.2);
+}
+
+.row {
+    display: flex;
+    padding: 1px;
+    margin: 1px;
+    flex-wrap: wrap;
+    margin-top: 10%;
+}
+
+.column {
+    flex: 25%;
+    padding: 2.5px;
+}
+
+.column img {
+    margin-top: 5px;
+}
+
+@media (max-width: 600px) {
+    .column {
+        flex: 100%;
+    }
+}
+
   
 footer {
     background-color: #000;
