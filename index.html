@@ -1,96 +1,136 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>Descubre Buenos Aires</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
     <script src="https://kit.fontawesome.com/3f44013063.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#"><img class="logo" src="./assets/imágenes/Logotipo_3.png" alt="logoBA"></a>
-              <button class="navbar-toggler size" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                    <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Ver y hacer
-                      </a>
-                      <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <li><a class="dropdown-item" href="./pages/20_cosas.html">20 cosas que hacer en Buenos Aires</a></li>
-                        <li><a class="dropdown-item" href="./pages/informacion.html">Información práctica sobre Buenos Aires</a></li>
-                      </ul>
-                    </li>
-                  <li class="nav-item">
-                    <a class="nav-link boton-galeria" href="./pages/galeria.html">Galería</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link boton-contacto" href="./pages/contacto.html">Contacto</a>
-                  </li>
-                </ul>
-              </div>
+                <div class="mx-auto text-center">
+                    <a class="navbar-brand" href="#"><img class="logo" src="./assets/imágenes/Logotipo_3.png"
+                            alt="logoBA"></a>
+                </div>
+                <button class="navbar-toggler order-first" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Ver y hacer
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="./pages/10_cosas.html">10 cosas que hacer en Buenos
+                                        Aires</a></li>
+                                <li><a class="dropdown-item" href="./pages/informacion.html">Información práctica sobre
+                                        Buenos Aires</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link boton-galeria" href="./pages/galeria.html">Galería</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link boton-contacto" href="./pages/contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-          </nav>
+        </nav>
     </header>
     <main>
-        <div class="contenedorPadre">
-            <div class="contenedorHijo hijoIzquierdo">
-                <p style="color: #fdd306;">.</p>
+        <section class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 col-sm-6 col-lg-6 col-xl-6">
+                    <h1 class="tituloH1">Descubre<span>Buenos Aires</span></h1>
+                    <p class="parrafo">Buenos Aires es la capital y ciudad más grande de Argentina, ubicada en América
+                        del Sur. Es cosmopolita, culturalmente rica y tiene una arquitectura impresionante, vida
+                        nocturna vibrante, gastronomía deliciosa y muchas atracciones turísticas. Es conocida por su
+                        pasión por el fútbol y tango, y por ser la cuna de famosos escritores, artistas y músicos.
+                        Combina la elegancia europea con el estilo latinoamericano y es un destino turístico popular en
+                        Sudamérica.</p>
+                </div>
+                <div class="col-md-12 col-sm-6 col-lg-6 col-xl-6">
+                    <img class="imagen" src="./assets/imágenes/portada_index.jpg" alt="portada-inicio">
+                </div>
             </div>
-                <div><img class="imagen" src="./assets/imágenes/portada_index.jpg" alt="ciudad"></div>
-            <div class="contenedorHijo hijoDerecho">
-                <h1 class="tituloH1">Descubre<span>Buenos Aires</span></h1>
-                <p class="parrafo">Buenos Aires es la capital y la ciudad más grande de Argentina, ubicada en la costa este de América del Sur. Es una ciudad cosmopolita y culturalmente rica, con una arquitectura impresionante, una vibrante vida nocturna, una deliciosa gastronomía y una gran cantidad de atracciones turísticas. También es conocida por su pasión por el fútbol y el tango, y por ser la cuna de muchos escritores, artistas y músicos famosos. Buenos Aires es una ciudad que combina la elegancia europea con el estilo latinoamericano, y es un destino turístico popular en Sudamérica.</p>
-            </div>
-        </div>
+        </section>
     </main>
     <aside>
-        <div class="contenedorTarjetas">       
+        <div class="container-cards">
             <div class="tarjeta">
-                <a class="descripcion" href="#"><img src="./assets/imágenes/card 1.jpg" alt="planetario">Mira un espectaculo astronómico en el Planetario Galileo Galilei...</a>
+                <a class="descripcion" href="./pages/10_cosas.html#planetario"><img src="./assets/imágenes/card 1.jpg"
+                        alt="planetario">Mira un
+                    espectaculo astronómico en el Planetario Galileo Galilei...</a>
             </div>
             <div class="tarjeta">
-                <a class="descripcion" href=""><img src="./assets/imágenes/card 2.jpg" alt="desayuno">Desayuna en el Palacio Paz...</a>
+                <a class="descripcion" href="./pages/10_cosas.html#desayuno"><img src="./assets/imágenes/card 2.jpg"
+                        alt="desayuno">Desayuna en el
+                    Palacio Paz...</a>
             </div>
             <div class="tarjeta">
-                <a class="descripcion" href=""><img src="./assets/imágenes/card 3.jpg" alt="santelmo">San Telmo, un ambiente bohemio...</a> 
+                <a class="descripcion" href="./pages/10_cosas.html#santelmo"><img src="./assets/imágenes/card 3.jpg"
+                        alt="santelmo">San Telmo, un
+                    ambiente bohemio...</a>
             </div>
             <div class="tarjeta">
-                <a class="descripcion" href=""><img src="./assets/imágenes/card 4.jpg" alt="rosedal">93 especies diferentes de rosas...</a>
+                <a class="descripcion" href="./pages/10_cosas.html#rosedal"><img src="./assets/imágenes/card 4.jpg"
+                        alt="rosedal">93 especies
+                    diferentes de rosas...</a>
             </div>
             <div class="tarjeta">
-                <a class="descripcion" href=""><img src="./assets/imágenes/card 5.jpg" alt="malba">Visita el Museo de Arte Latinoamericano...</a>
+                <a class="descripcion" href="./pages/10_cosas.html#malba"><img src="./assets/imágenes/card 5.jpg"
+                        alt="malba">Visita el Museo de
+                    Arte Latinoamericano...</a>
             </div>
             <div class="tarjeta">
-                <a class="descripcion" href=""><img src="./assets/imágenes/card 6.jpg" alt="cementerio">Cementerio de la Recoleta, considerado un museo...</a>
-            </div>        
-        </div>          
-    </aside>    
+                <a class="descripcion" href="./pages/10_cosas.html#cementerio"><img src="./assets/imágenes/card 6.jpg"
+                        alt="cementerio">Cementerio de la
+                    Recoleta, considerado un museo...</a>
+            </div>
+        </div>
+    </aside>
     <footer>
-        <div class="contenedorFooter">
+        <div class="container-footer">
             <div class="listaIconos">
                 <ul>
-                    <li><h3>Síguenos</h3></li>
-                    <li><a class="listaIcon" href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i>Facebook</a></li>
-                    <li><a class="listaIcon" href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i>Instagram</a></li>
-                    <li><a class="listaIcon" href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i>Youtube</a></li>
-                    <li><a class="listaIcon" href="https://www.whatsapp.com/" target="_blank"><i class="fa-brands fa-whatsapp"></i>Whatsapp</a></li>
-                    <li><a class="listaIcon" href="https://www.tiktok.com/" target="_blank"><i class="fa-brands fa-tiktok"></i>TikTok</a></li>
-                    <li><a class="listaIcon" href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i>Twitter</a></li>
+                    <li>Síguenos</li>
+                    <li><a class="listaIcon" href="https://www.facebook.com/" target="_blank"><i
+                                class="fa-brands fa-facebook"></i>Facebook</a></li>
+                    <li><a class="listaIcon" href="https://www.instagram.com/" target="_blank"><i
+                                class="fa-brands fa-instagram"></i>Instagram</a></li>
+                    <li><a class="listaIcon" href="https://www.youtube.com/" target="_blank"><i
+                                class="fa-brands fa-youtube"></i>Youtube</a></li>
+                    <li><a class="listaIcon" href="https://www.whatsapp.com/" target="_blank"><i
+                                class="fa-brands fa-whatsapp"></i>Whatsapp</a></li>
+                    <li><a class="listaIcon" href="https://www.tiktok.com/" target="_blank"><i
+                                class="fa-brands fa-tiktok"></i>TikTok</a></li>
+                    <li><a class="listaIcon" href="https://twitter.com/" target="_blank"><i
+                                class="fa-brands fa-twitter"></i>Twitter</a></li>
                 </ul>
             </div>
             <div class="contenedorCopyright">
-                <p class="copyright">Copyright © Descubre Buenos Aires | Ezequiel Mayo 2023. Todos los derechos reservados.</p>
+                <p class="copyright">Copyright © Descubre Buenos Aires | Ezequiel Mayo 2023. Todos los derechos
+                    reservados.</p>
             </div>
-        </div>    
+        </div>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>

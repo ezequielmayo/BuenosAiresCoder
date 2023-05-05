@@ -1,134 +1,151 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/style.css">
-    <script src="https://kit.fontawesome.com/3f44013063.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/style.css">
+  <script src="https://kit.fontawesome.com/3f44013063.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="../index.html"><img class="logo" src="../assets/imágenes/Logotipo_3.png" alt="logoBA"></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                    <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Ver y hacer
-                      </a>
-                      <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <li><a class="dropdown-item" href="./20_cosas.html">20 cosas que hacer en Buenos Aires</a></li>
-                        <li><a class="dropdown-item" href="./informacion.html">Información práctica sobre Buenos Aires</a></li>
-                      </ul>
-                    </li>
-                  <li class="nav-item">
-                    <a class="nav-link boton-galeria" href="./galeria.html">Galería</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link boton-contacto" href="./contacto.html">Contacto</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-    </header>
-    <main class="mainCotacto">
-        <div class="contenedorContacto">
-            <img src="../assets/imágenes/portadacontacto.jpg" alt="Descripción de la imagen">
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <div class="mx-auto text-center">
+          <a class="navbar-brand" href="../index.html"><img class="logo" src="../assets/imágenes/Logotipo_3.png" alt="logoBA"></a>
         </div>
-        <div class="contenedorTitulo">
-            <h1 class="tituloContacto">Contáctanos</h1>
-            <p class="subtitulo">¡Tu consulta o sugerencia nos interesa!</p>
-        </div> 
-    </main>
-    <aside class="formContacto">
-        <form class="row g-3">
-            <div class="col-md-6">
-              <label for="inputEmail4" class="form-label">Nombre</label>
-              <input type="email" class="form-control" id="inputEmail4">
-            </div>
-            <div class="col-md-6">
-              <label for="inputPassword4" class="form-label">Email</label>
-              <input class="form-control" id="inputPassword4">
-            </div>
+        <button class="navbar-toggler order-first" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Ver y hacer
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="./10_cosas.html">10 cosas que hacer en Buenos Aires</a></li>
+                <li><a class="dropdown-item" href="./informacion.html">Información práctica sobre Buenos Aires</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link boton-galeria" href="./galeria.html">Galería</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link boton-contacto" href="./contacto.html">Contacto</a>
+            </li>
+          </ul>
         </div>
-        <div class="col-md-6">
-            <label for="inputCity" class="form-label">Ciudad</label>
-            <input type="text" class="form-control" id="inputCity">
-        </div>
-        <div class="col-md-4">
-            <label for="inputState" class="form-label">País</label>
-            <select id="inputState" class="form-select">
-                <option selected>Seleccione...</option>
-                <option value="AR">Argentina</option>
-                <option value="BO">Bolivia</option>
-                <option value="CL">Chile</option>
-                <option value="CO">Colombia</option>
-                <option value="CR">Costa Rica</option>
-                <option value="CU">Cuba</option>
-                <option value="DO">República Dominicana</option>
-                <option value="EC">Ecuador</option>
-                <option value="SV">El Salvador</option>
-                <option value="ES">España</option>
-                <option value="GT">Guatemala</option>
-                <option value="HN">Honduras</option>
-                <option value="MX">México</option>
-                <option value="NI">Nicaragua</option>
-                <option value="PA">Panamá</option>
-                <option value="PY">Paraguay</option>
-                <option value="PE">Perú</option>
-                <option value="PR">Puerto Rico</option>
-                <option value="ES">España</option>
-                <option value="UY">Uruguay</option>
-                <option value="VE">Venezuela</option> 
-            </select>
-        </div>
-        <div class="col-md-2">
-            <label for="inputZip" class="form-label">n° telefónico</label>
-            <input type="text" class="form-control" id="inputZip">
-        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="container">
+      <h1 class="tituloH1-contacto">Contáctenos</h1>
+      <p class="parrafo-contacto">¡Tu consulta o sugenrecia nos interesa!</p>
+    </div>
+  </main>
+  <aside class="container">
+    <form class="row g-3">
+      <div class="col-sm-6">
+        <label for="inputEmail4" class="form-label">Nombre</label>
+        <input type="email" class="form-control" id="inputEmail4">
+      </div>
+      <div class="col-sm-6">
+        <label for="inputPassword4" class="form-label">Email</label>
+        <input class="form-control" id="inputPassword4">
+      </div>
+      <div class="col-lg-6">
+        <label for="inputCity" class="form-label">Ciudad</label>
+        <input type="text" class="form-control" id="inputCity">
+      </div>
+      <div class="col-lg-4">
+        <label for="inputState" class="form-label">País</label>
+        <select id="inputState" class="form-select">
+          <option selected>Seleccione...</option>
+          <option value="AR">Argentina</option>
+          <option value="BO">Bolivia</option>
+          <option value="CL">Chile</option>
+          <option value="CO">Colombia</option>
+          <option value="CR">Costa Rica</option>
+          <option value="CU">Cuba</option>
+          <option value="DO">República Dominicana</option>
+          <option value="EC">Ecuador</option>
+          <option value="SV">El Salvador</option>
+          <option value="ES">España</option>
+          <option value="GT">Guatemala</option>
+          <option value="HN">Honduras</option>
+          <option value="MX">México</option>
+          <option value="NI">Nicaragua</option>
+          <option value="PA">Panamá</option>
+          <option value="PY">Paraguay</option>
+          <option value="PE">Perú</option>
+          <option value="PR">Puerto Rico</option>
+          <option value="ES">España</option>
+          <option value="UY">Uruguay</option>
+          <option value="VE">Venezuela</option>
+        </select>
+      </div>
+      <div class="col-lg-2">
+        <label for="inputZip" class="form-label">n° telefónico</label>
+        <input type="text" class="form-control" id="inputZip">
+      </div>
+      <div class="col-12">
         <div class="form-floating">
-            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
-            <label for="floatingTextarea2">Haz un comentario</label>
+          <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+            style="height: 100px"></textarea>
+          <label for="floatingTextarea2">Haz un comentario</label>
         </div>
-            <div class="col-12">
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" id="gridCheck">
-                <label class="form-check-label" for="gridCheck">
-                  ¡Suscribirme para recibir novedades "Descubre Buenos Aires" y más!
-                </label>
-              </div>
-            </div>
-            <div class="col-12">
-              <button type="submit" class="btn btn-primary">Enviar</button>
-            </div>
-        </form>
-    </aside>
-    <footer>
-        <div class="contenedorFooter">
-            <div class="listaIconos">
-                <ul>
-                    <li><h3>Síguenos</h3></li>
-                    <li><a class="listaIcon" href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i>Facebook</a></li>
-                    <li><a class="listaIcon" href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i>Instagram</a></li>
-                    <li><a class="listaIcon" href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i>Youtube</a></li>
-                    <li><a class="listaIcon" href="https://www.whatsapp.com/" target="_blank"><i class="fa-brands fa-whatsapp"></i>Whatsapp</a></li>
-                    <li><a class="listaIcon" href="https://www.tiktok.com/" target="_blank"><i class="fa-brands fa-tiktok"></i>TikTok</a></li>
-                    <li><a class="listaIcon" href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i>Twitter</a></li>
-                </ul>
-            </div>
-            <div class="contenedorCopyright">
-                <p class="copyright">Copyright © Descubre Buenos Aires | Ezequiel Mayo 2023. Todos los derechos reservados.</p>
-            </div>
-        </div>    
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+      </div>
+      <div class="col-12">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="gridCheck">
+          <label class="form-check-label" for="gridCheck">
+            ¡Suscribirme para recibir novedades "Descubre Buenos Aires" y más!
+          </label>
+        </div>
+      </div>
+      <div class="col-12">
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </div>
+    </form>
+  </aside>
+  <footer>
+    <div class="container-footer">
+      <div class="listaIconos">
+        <ul>
+          <li>Síguenos</li>
+          <li><a class="listaIcon" href="https://www.facebook.com/" target="_blank"><i
+                class="fa-brands fa-facebook"></i>Facebook</a></li>
+          <li><a class="listaIcon" href="https://www.instagram.com/" target="_blank"><i
+                class="fa-brands fa-instagram"></i>Instagram</a></li>
+          <li><a class="listaIcon" href="https://www.youtube.com/" target="_blank"><i
+                class="fa-brands fa-youtube"></i>Youtube</a></li>
+          <li><a class="listaIcon" href="https://www.whatsapp.com/" target="_blank"><i
+                class="fa-brands fa-whatsapp"></i>Whatsapp</a></li>
+          <li><a class="listaIcon" href="https://www.tiktok.com/" target="_blank"><i
+                class="fa-brands fa-tiktok"></i>TikTok</a></li>
+          <li><a class="listaIcon" href="https://twitter.com/" target="_blank"><i
+                class="fa-brands fa-twitter"></i>Twitter</a></li>
+        </ul>
+      </div>
+      <div class="contenedorCopyright">
+        <p class="copyright">Copyright © Descubre Buenos Aires | Ezequiel Mayo 2023. Todos los derechos
+          reservados.</p>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>

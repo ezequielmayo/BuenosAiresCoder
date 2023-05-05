@@ -4009,12 +4009,12 @@ textarea.form-control-lg {
 
 .navbar-toggler-icon {
   display: inline-block;
-  width: 1.5em;
-  height: 1.5em;
+  width: 20px;
+  height: 20px;
   vertical-align: middle;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 100%;
+  background-size: 50%;
 }
 
 .navbar-nav-scroll {
